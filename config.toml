@@ -1,0 +1,31 @@
+baseurl = "https://www.example.com"
+title = "Prashant"
+theme = "hugo-theme-vec"
+languageCode = "en-us"
+paginate = 10
+disqusShortname = "yiiim"
+googleAnalytics = "UA-57408564-1"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "blog"
+    weight = 1
+    url = "/blog"
+  [[menu.main]]
+    name = "resume"
+    weight = 0
+    url = "/pdf/cv.html"
+
+[params]
+  Keywords = "key, 关键字, キーワード"
+  Description = "There are some words to describe your site"
+  Avatar = "img/me.jpg"
+  SelfIntro = "Software engineer @ Dstillery, NYC"
+  Email = "prashant@prashantkhurana.com"
+
+  GithubID = "prashantkhurana"
+  TwitterID = "prashantgolu"
+  FacebookID = "Your Facebook ID"
+  LinkedInID = "praskhurana"
+  GoogleplusID = "Your Googleplus ID"
