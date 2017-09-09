@@ -15,7 +15,7 @@ googleAnalytics = "UA-57408564-1"
   [[menu.main]]
     name = "resume"
     weight = 0
-    url = "/pdf/cv.html"
+    url = "/pdf/cv.pdf"
 
 [params]
   Keywords = "key, 关键字, キーワード"
@@ -29,3 +29,4 @@ googleAnalytics = "UA-57408564-1"
   FacebookID = "Your Facebook ID"
   LinkedInID = "praskhurana"
   GoogleplusID = "Your Googleplus ID"
+  custom_css = ["css/custom.css"]
