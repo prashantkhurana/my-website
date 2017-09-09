@@ -11,3 +11,6 @@ Built using hugo.
 * Make sure you have [hugo](https://gohugo.io/getting-started/quick-start/) installed.
 * Running `hugo server -D` will start a hugo server with the contents of the website.
 * Running `hugo` will put the contents in public directory and then we need to push both current directory and public directory. 
+
+## Add new blog post
+Run `hugo new blog/blog-title.md`
