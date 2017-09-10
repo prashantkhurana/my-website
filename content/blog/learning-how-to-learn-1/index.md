@@ -33,9 +33,10 @@ As I am taking the course I will outline my notes here. This post consists of th
     * Let your mind run free for some time. 
 
 ### Procrastination 
-![](img/2017-09-09-15-21-01.png)
+![](Procrastination.png)
 #### Pomodoro 
-![](img/2017-09-09-15-22-10.png)
+![](Pomodoro.png)
+
 * Similar to intense workout followed by relaxation. 
 
 ### Practice makes perfection
