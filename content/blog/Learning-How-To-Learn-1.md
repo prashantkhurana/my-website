@@ -1,6 +1,6 @@
 +++
 toc = false
-draft = true
+draft = false
 comments = false
 slug = ""
 title = "Learning How to Learn Part 1"

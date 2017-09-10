@@ -26,7 +26,5 @@ googleAnalytics = "UA-57408564-1"
 
   GithubID = "prashantkhurana"
   TwitterID = "prashantgolu"
-  FacebookID = "Your Facebook ID"
   LinkedInID = "praskhurana"
-  GoogleplusID = "Your Googleplus ID"
   custom_css = ["css/custom.css"]
