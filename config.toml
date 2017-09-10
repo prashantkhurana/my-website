@@ -3,8 +3,8 @@ title = "Prashant"
 theme = "hugo-theme-vec"
 languageCode = "en-us"
 paginate = 10
-disqusShortname = "yiiim"
-googleAnalytics = "UA-57408564-1"
+disqusShortname = ""
+googleAnalytics = "UA-106192187-1"
 
 [menu]
   # Shown in the side menu.
