@@ -1,5 +1,5 @@
 baseurl = "https://prashantkhurana.github.io/"
-title = "Prashant"
+title = "Prashant Khurana"
 theme = "hugo-theme-vec"
 languageCode = "en-us"
 paginate = 10
