@@ -14,8 +14,12 @@ googleAnalytics = "UA-106192187-1"
     url = "/blog"
   [[menu.main]]
     name = "resume"
-    weight = 0
+    weight = 2
     url = "/pdf/cv.pdf"
+  [[menu.main]]
+    name = "presentations"
+    weight = 3
+    url = "/presentations"
 
 [params]
   Keywords = "key, 关键字, キーワード"
