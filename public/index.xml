@@ -28,8 +28,9 @@ Motivation I had been trying to go over deep learning course on fast.ai and some
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://prashantkhurana.com/presentations/</guid>
-      <description>Over the course of my working as a software developer I gave a few presentations. I tried to collect them here. At the time, I was not focussing on publishing them so some of the content would be missing at I did not document everything. Feel free to contact me if anything piques your interest.
-1) Rust presentation with focus on differentiating features of rust ie. owenership, borrowing and lifetimes. Github Link</description>
+      <description>In the last few years I gave a bunch of presentations. This is a collection of those. At the time, I was not focussing on publishing them so some of the content would be missing as I did not document everything. Feel free to contact me if anything piques your interest.
+1) Rust presentation with focus on differentiating features of rust ie. owenership, borrowing and lifetimes. Github Link
+2) Graph Databases : Neo4j.</description>
     </item>
     
   </channel>
