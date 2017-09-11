@@ -1,6 +1,3 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/prashantkhurana/prashantkhurana.github.io
 [submodule "themes/hugo-theme-vec"]
 	path = themes/hugo-theme-vec
 	url = https://github.com/prashantkhurana/hugo-theme-vec
