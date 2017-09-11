@@ -1,9 +1,9 @@
 
 # My Website 
 
-Source code for my website located at : http://prashantkhurana.github.io/
+Source code for my website located at : https://prashantkhurana.com
 
-Built using hugo.
+Built using [hugo](http://gohugo.io/) and deployed via [netlify](https://www.netlify.com/). 
 
 ## Steps to run locally
 
@@ -11,7 +11,7 @@ Built using hugo.
 * Make sure you have [hugo](https://gohugo.io/getting-started/quick-start/) installed.
 * Running `hugo server -D` will start a hugo server with the contents of the website.
 * Running `hugo` will put the contents in public directory[^fn1]
-* cd to public directory and push the changes and then push the state of the new submodule to the main repo.
+* Git push. Netlify listens to the public directory and will handle the deploy
 
 
 ## Add new blog post
