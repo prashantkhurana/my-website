@@ -5,7 +5,7 @@ title = "Presentations"
   hrefTargetBlank = true
 +++
 
-In the last few years I gave a bunch of presentations. This is a collection of those. At the time, I was not focussing on publishing them so some of the content would be missing as I did not document everything. Feel free to contact me if anything piques your interest. 
+In the last few years I gave a bunch of presentations. This is a collection of those. At the time, I was not focussing on publishing them, so some of the content would be missing as I did not document everything. Feel free to contact me if anything piques your interest. 
 
 1) Rust presentation with focus on differentiating features of rust ie. owenership, borrowing and lifetimes. [Github Link][1]
 
