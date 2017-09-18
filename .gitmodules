@@ -3,4 +3,4 @@
 	url = https://github.com/prashantkhurana/hugo-theme-vec
 [submodule "themes/minimal"]
 	path = themes/minimal
-	url = https://github.com/calintat/minimal.git
+	url = https://github.com/prashantkhurana/minimal.git
