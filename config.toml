@@ -1,34 +1,55 @@
-baseurl = "https://www.prashantkhurana.com/"
-title = "Prashant Khurana"
-theme = "hugo-theme-vec"
+baseURL = "http://example.com/"
 languageCode = "en-us"
-paginate = 10
-disqusShortname = ""
-googleAnalytics = "UA-106192187-1"
-
-[menu]
-  # Shown in the side menu.
-  [[menu.main]]
-    name = "blog"
-    weight = 1
-    url = "/blog"
-  [[menu.main]]
-    name = "resume"
-    weight = 2
-    url = "/pdf/cv.pdf"
-  [[menu.main]]
-    name = "presentations"
-    weight = 3
-    url = "/presentations"
+title = "Prashant Khurana"
+theme = "minimal"
+pluralizelisttitles = false
 
 [params]
-  Keywords = "key, 关键字, キーワード"
-  Description = "There are some words to describe your site"
-  Avatar = "img/me.jpg"
-  SelfIntro = "Software engineer @ Dstillery, NYC"
-  Email = "prashant@prashantkhurana.com"
+    author = "Prashant Khurana"
+    description = "Software engineer @ Dstillery, NYC"
+    accent = "blue"
+    showBorder = true
+    backgroundColor = "white"
+    font = "" # should match the name on Google Fonts!
+    highlight = true
+    highlightLanguages = []
+    Avatar = "img/me.jpg"
+    highlightStyle = ""
 
-  GithubID = "prashantkhurana"
-  TwitterID = "prashantgolu"
-  LinkedInID = "praskhurana"
-  custom_css = ["css/custom.css"]
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/blog/"
+    name = "Blog"
+    weight = 2
+
+[[menu.main]]
+    url = "/presentations/"
+    name = "Presentations"
+    weight = 3
+[[menu.main]]
+    url = "/pdf/cv.pdf"
+    name = "Resume"
+    weight = 3
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "prashant@prashantkhurana.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/prashantkhurana/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/praskhurana/"
+    name = "linkedin"
+    weight = 3
