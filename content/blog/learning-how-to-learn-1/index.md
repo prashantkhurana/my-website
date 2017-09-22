@@ -7,7 +7,7 @@ title = "Learning How to Learn Part 1"
 date =  2017-09-09T16:52:23-04:00
 +++
 
-Recently I decided to take the most popular course on Coursera : [Learning how to learn][1]. 
+Recently I decided to take a popular course on Coursera : [Learning how to learn][1]. 
 
 # Motivation
 
