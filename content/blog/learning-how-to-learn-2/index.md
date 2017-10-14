@@ -1,9 +1,8 @@
 ---
 title: "Learning How to Learn Part 2"
 description: ""
-date: 2017-09-21
+date: 2017-10-14
 draft: true
-tags : ["Learning How to Learn"]
 ---
 
 I recently enrolled myself in 'Learning how to Learn' course on coursera. [Part 1](../learning-how-to-learn-1) of this series listed my motivations for doing so, and summary of week 1 of the course.
@@ -59,21 +58,14 @@ Motivation is a very important part of learning. [How Motivation Affects Learnin
 Its important to find what motivates you and tangible rewards are better than intangible ones.  The idea of treating yourself once you finish learning is also a motivation. 
 
 
-Ending summary : 
+# Summary
 
 * Remember not to get overwhelmed, it gets easier. 
 * Be prepared to give in the time, a 20 min ted talk usually takes 70 hours to prepare.
+* Don't fall into the illusion of competence. Practice, practice, practice...
+* Do spaced repetition : repetitiveness in a single session does not help.  
 * Start with the basics, don't jump into the water without learning how to swim. 
 * Keep an open mind and don't be afraid to think out of the box. "Science progresses one funeral at a time."
- 
-
-
-
-
-
-
-
-
 
 [1]:https://en.wikipedia.org/wiki/Pomodoro_Technique
 [2]:https://www.youtube.com/watch?v=ZsABTmT1_M0
