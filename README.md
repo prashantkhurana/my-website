@@ -10,7 +10,7 @@ Built using [hugo](http://gohugo.io/) and deployed via [netlify](https://www.net
 * Clone the repo with recursive flag i.e. `git clone --recursive  https://github.com/prashantkhurana/my-website`. 
 * Make sure you have [hugo](https://gohugo.io/getting-started/quick-start/) installed.
 * Running `hugo server -D` will start a hugo server with the contents of the website.
-* Running `hugo` will put the contents in public directory[^fn1]
+* Running `hugo` will put the contents in public directory[^fn1]. Make sure the new post is not a draft. `draft:false`
 * Git push. Netlify listens to the public directory and will handle the deploy
 
 

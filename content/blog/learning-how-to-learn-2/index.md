@@ -2,7 +2,7 @@
 title: "Learning How to Learn Part 2"
 description: ""
 date: 2017-10-17
-draft: true
+draft : false
 ---
 
 I recently enrolled myself in 'Learning how to Learn' [course](https://www.coursera.org/learn/learning-how-to-learn) on coursera. [Part 1](../learning-how-to-learn-1) of this series listed my motivations for doing so, and summary of week 1 of the course.
