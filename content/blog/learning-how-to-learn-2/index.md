@@ -5,7 +5,7 @@ date: 2017-10-14
 draft: true
 ---
 
-I recently enrolled myself in 'Learning how to Learn' course on coursera. [Part 1](../learning-how-to-learn-1) of this series listed my motivations for doing so, and summary of week 1 of the course.
+I recently enrolled myself in 'Learning how to Learn' [course](https://www.coursera.org/learn/learning-how-to-learn) on coursera. [Part 1](../learning-how-to-learn-1) of this series listed my motivations for doing so, and summary of week 1 of the course.
 
 Before summarizing my learnings from week 2, I would like to go over the things that have stuck with me from week 1. These techniques have passed the test of time(a month, hah) :
 
@@ -16,11 +16,11 @@ Week 2 of the course focussed on chunking information i.e. breaking down informa
 
 # Chunks
 
-A chunk is a logical part of a big picture. Think of a book chapter as a chunk. Each chapter of a book keeps the larger picture in mind while being focussed on the particular aspect of the picture in it. Our mind similarly works with chunks while we are learning a new subject. 
+A chunk is a logical part of a big picture. Think of a book chapter as a chunk. Each chapter of a book keeps the larger picture in mind while being focussed on the particular aspect of the picture in it. Our mind works similarly. 
 
 ## How to form a chunk
 
-Lets take the example of learning soccer. At first we will learn few techniques and practice them individually. For example running with the ball and dribbling it. Each technique is a chunk. Sooner than you know, our mind would have combined related techniques and we can dribble and run at the same time. This is our mind combining chunks to form big ones. 
+Lets take the example of learning soccer. At first we will learn few techniques and practice them individually. For example running with the ball and dribbling it. Each technique is a chunk. Sooner than you know, our mind would have combined the related techniques and we can dribble and run at the same time. This is our mind combining chunks to form big ones. 
 
 Focus is important to form a chunk. So try to stay away from noise like television, internet etc. At the same time, stress is harmful and our brain has difficulty forming chunks while stressed.   
 
@@ -36,13 +36,15 @@ Glancing the headings, looking at pictures etc help in understanding the larger 
 
 # Illusion of competence.
 
-A lot of times we read something and think that we understand it and move on to the next topic. Our mind tricks us into believing that we have understood the topic just by reading. This is called illusion of competence. More often than not what happens then is that we need to come back to the topic later again and again and eventually might sometimes just give up.  
+A lot of times we read something and think that we understand it and move on to the next topic. Our mind tricks us into believing that we have understood the topic just by reading. This is called illusion of competence. More often than not, what happens is that we need to come back to the topic later, again and again and eventually might sometimes just give up.  
 
 Getting basics right is important and practicing helps us avoid the above situation. Re-reading is less productive than recalling. Re reading helps more if there has been sufficient time in between. 
 
-Sometimes even while practicing, we just glance at the solution , think we get it, and move on. This is also illusion of competence. Here is a poll which was taken in the course. See how most of the people answered yes. 
+Sometimes even while practicing, we just glance at the solution, think we get it, and move on. This is also illusion of competence. Here is a poll which was taken in the course.
 
 ![](2017-10-14-17-18-30.png)
+
+Notice how most of the people answered yes. 
 
 Few things to keep in mind while learning :
 
