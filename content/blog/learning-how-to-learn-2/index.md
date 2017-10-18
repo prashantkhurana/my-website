@@ -1,7 +1,7 @@
 ---
 title: "Learning How to Learn Part 2"
 description: ""
-date: 2017-10-14
+date: 2017-10-17
 draft: true
 ---
 
