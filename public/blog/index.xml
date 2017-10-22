@@ -6,10 +6,21 @@
     <description>Recent content in Blog on Prashant Khurana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sync between Google drive and dropbox using rclone</title>
+      <link>http://example.com/blog/rclone-copy-drive-dropbox/</link>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/blog/rclone-copy-drive-dropbox/</guid>
+      <description>Rclone is a command line program to sync files and directories to and from various cloud service providers.
+Among others, it supports Google Drive, Dropbox, Amazon Drive, Box, Microsoft One Drive, Yandex and Backblaze. An exhaustive list can be found over here.
+This is a mental dump of how to setup rclone and sync between dropbox and google drive. I generally store my files in Google drive and then once a month sync them over to dropbox and backblaze.</description>
+    </item>
     
     <item>
       <title>Learning How to Learn Part 2</title>
@@ -31,6 +42,15 @@ Before summarizing my learnings from week 2, I would like to go over the things 
       <description>Recently I decided to take one of the most popular courses on Coursera : Learning how to learn.
 Motivation I had been trying to go over deep learning course on fast.ai and somehow I was not making progress and hence started to procrastinate. In retrospect there are a few reasons I can think of, as to why I gave up on the course(for the time being) :
  I decided to deep dive into it and thought that I can do a quick glance of the course in a few weeks whereas the recommended time to finish the course is 3 months.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.com/blog/rclone-copy-drive-dropbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/blog/rclone-copy-drive-dropbox/</guid>
+      <description>Sync between Google drive and dropbox using rclone  /** * prism.js Github theme based on GitHub&#39;s theme. * @author Sam Clarke */ code[class*=&#34;language-&#34;], pre[class*=&#34;language-&#34;] { color: #333; background: none; font-family: Consolas, &#34;Liberation Mono&#34;, Menlo, Courier, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.4; -moz-tab-size: 8; -o-tab-size: 8; tab-size: 8; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; } /* Code blocks */ pre[class*=&#34;</description>
     </item>
     
   </channel>

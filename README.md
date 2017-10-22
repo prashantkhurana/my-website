@@ -18,3 +18,7 @@ Built using [hugo](http://gohugo.io/) and deployed via [netlify](https://www.net
 Run `hugo new blog/blog-title.md`
 
 [^fn1]: If needed , clear the public directory first (`rm -rf public/*`) and then run hugo.
+
+## Debug
+
+Use `hugo server -D -l -v` to enable verbose logging.

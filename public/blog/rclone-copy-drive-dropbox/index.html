@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sync between Google drive and dropbox using rclone</title>
+        <style>
+
+    html body {
+        font-family: , sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+
+
+
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+    
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.30.2" />
+        
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Sync between Google drive and dropbox using rclone</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/blog/">Blog</a></li>
+                            
+                                <li><a href="/presentations/">Presentations</a></li>
+                            
+                                <li><a href="/pdf/cv.pdf">Resume</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="prashant@prashantkhurana.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/prashantkhurana/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/praskhurana/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+    
+    
+
+    <h4><a href="/blog/rclone-copy-drive-dropbox/">Sync between Google drive and dropbox using rclone</a></h4>
+    <h5>October 20, 2017</h5>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<p><a href="1" title="https://rclone.org/
+">Rclone</a> is a command line program to sync files and directories to and from various cloud service providers.</p>
+
+<p>Among others, it supports Google Drive, Dropbox, Amazon Drive, Box, Microsoft One Drive, Yandex and Backblaze. An exhaustive list can be found over <a href="2" title="https://rclone.org/
+">here</a>.</p>
+
+<p>This is a mental dump of how to setup rclone and sync between dropbox and google drive. I generally store my files in Google drive and then once a month sync them over to dropbox and backblaze. I use Google drive mac app for syncing to Google and rclone for all others.</p>
+
+<h1 id="setup-rclone">Setup Rclone</h1>
+
+<p>Rclone is a command line tool and can be used on Windows, osx, linux, freeBSD etc. If it interests you, rclone is written in <a href="4" title="https://golang.org/
+">golang</a> which has easy cross compilation, hence it can support a bunch of OS&rsquo;s. You can find the binaries for rclone over <a href="3" title="https://rclone.org/downloads/
+">here</a>. If you use macOS, then you can use homebrew i.e. <code>brew install rclone</code>.</p>
+
+<p>Once installed, we will setup both Google Drive and dropbox for rclone.</p>
+
+<h2 id="configuration-for-dropbox">Configuration for dropbox</h2>
+
+<p>We will use terminal. Use terminal app of your choice. (terminal app for mac, command prompt for windows etc)</p>
+
+<p>1) <code>rclone config</code> is used to config rclone. On doing this you will see the following menu.
+  <img src="img/2017-10-19-11-44-51.png" alt="" /></p>
+
+<p>2) Remotes simplified are various cloud providers. Press <code>n</code> for new remote.</p>
+
+<p>3) Name it &lsquo;dropbox&rsquo;.</p>
+
+<p>4) Choose &lsquo;Dropbox&rsquo; from list of providers. At the time this was written it was number 5.</p>
+
+<p>5) Leave &lsquo;Dropbox App Key&rsquo; empty i.e just press enter key.</p>
+
+<p>6) Leave &lsquo;Dropbox App Secret&rsquo; empty  i.e just press enter key.</p>
+
+<p>7) Use auto config? Y</p>
+
+<p>8) Rclone will launch dropbox will launch your browser asking for permission. Allow.</p>
+
+<p><img src="img/2017-10-19-11-59-43.png" alt="" /></p>
+
+<p>9) You will see the token field in the terminal. Press &lsquo;y&rsquo; to save the remote.</p>
+
+<p>The whole setup looks like the following:</p>
+
+<p><img src="img/2017-10-19-12-04-46.png" alt="" /></p>
+
+<p>As you can see, it is very intuitive.</p>
+
+<h2 id="configuration-for-google-drive">Configuration for Google Drive</h2>
+
+<p>It is very similar to dropbox&rsquo;s configuration. Here&rsquo;s an image showing the steps.</p>
+
+<p><img src="img/2017-10-19-12-32-21.png" alt="" /></p>
+
+<h1 id="transfer-files-from-dropbox-to-google-drive">Transfer files from dropbox to google drive</h1>
+
+<p>Rclone <a href="5" title="https://rclone.org/docs/
+">docs</a> are pretty exhaustive. We will be using &lsquo;copy&rsquo; to copy files from one remote to another.</p>
+
+<p>Let&rsquo;s assume you have a folder on Google Drive named &lsquo;backup&rsquo;. To transfer that folder to dropbox use</p>
+
+<p><code>rclone copy gdrive:Backup/ dropbox:Backup/</code></p>
+
+<p>Few useful options of <code>rclone copy</code> are :</p>
+
+<ul>
+<li><code>update</code> this will only copy the files which are newer on google drive than dropbox. So if you already have a file with same name in backup folder in dropbox, it will not overwrite that file if it is newer than gdrive&rsquo;s file.</li>
+<li><code>dry-run</code> this will show you the files rclone will copy without doing any copy. Its useful sometimes to see you are not overwriting any file accidentally.</li>
+</ul>
+
+<p>So generally I do this, <code>rclone copy gdrive:Backup/ dropbox:Backup/ --update --dry-run</code> and once everything looks good, then I run <code>rclone copy gdrive:Backup/ dropbox:Backup/ --update</code>.</p>
+
+<p>I do a similar process for Backblaze(their setup has little more to it though).</p>
+
+<p>This is how I keep my backup files in sync across multiple cloud providers.</p>
+</div>
+
+    
+    
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted"></p>
+
+        </footer>
+
+    </body>
+
+</html>
+

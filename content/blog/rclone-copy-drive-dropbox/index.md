@@ -1,7 +1,7 @@
 ---
 title: "Sync between Google drive and dropbox using rclone"
 date: 2017-10-20
-draft: true
+draft: false
 description: ""
 tags: []
 ---
@@ -10,7 +10,7 @@ tags: []
 
 Among others, it supports Google Drive, Dropbox, Amazon Drive, Box, Microsoft One Drive, Yandex and Backblaze. An exhaustive list can be found over [here][2]. 
 
-This is a mental dump of how to setup rclone and sync between dropbox and google drive. I generally store my files in Google drive and then once a month sync them over to dropbox and backblaze. I use the Google drive mac app for storing and use rclone for syncing. 
+This is a mental dump of how to setup rclone and sync between dropbox and google drive. I generally store my files in Google drive and then once a month sync them over to dropbox and backblaze. I use Google drive mac app for syncing to Google and rclone for all others. 
 
 
 # Setup Rclone
@@ -21,7 +21,8 @@ Once installed, we will setup both Google Drive and dropbox for rclone.
 
 ## Configuration for dropbox
 
-1) We will use terminal. Use terminal app of your choice. (terminal app for mac, command prompt for windows etc)
+We will use terminal. Use terminal app of your choice. (terminal app for mac, command prompt for windows etc)
+
 1) `rclone config` is used to config rclone. On doing this you will see the following menu.
   ![](img/2017-10-19-11-44-51.png) 
 
@@ -35,14 +36,16 @@ Once installed, we will setup both Google Drive and dropbox for rclone.
 
 6) Leave 'Dropbox App Secret' empty  i.e just press enter key.
 
-7) Use auto config?. Y.
+7) Use auto config? Y
 
 8) Rclone will launch dropbox will launch your browser asking for permission. Allow.
+
 ![](img/2017-10-19-11-59-43.png)
 
 9) You will see the token field in the terminal. Press 'y' to save the remote. 
 
-The whole setup looks like the following. 
+The whole setup looks like the following:
+
 ![](img/2017-10-19-12-04-46.png)
 
 As you can see, it is very intuitive.
@@ -64,7 +67,7 @@ Let's assume you have a folder on Google Drive named 'backup'. To transfer that 
 Few useful options of `rclone copy` are :
 
 * `update` this will only copy the files which are newer on google drive than dropbox. So if you already have a file with same name in backup folder in dropbox, it will not overwrite that file if it is newer than gdrive's file.
-* `dry-run` this will show you the files rclone will copy without doing any copy. Its useful sometimes to see you are not overwrite the file. 
+* `dry-run` this will show you the files rclone will copy without doing any copy. Its useful sometimes to see you are not overwriting any file accidentally.
 
 So generally I do this, `rclone copy gdrive:Backup/ dropbox:Backup/ --update --dry-run` and once everything looks good, then I run `rclone copy gdrive:Backup/ dropbox:Backup/ --update`.
 
