@@ -6,9 +6,12 @@ updated = ""
   hrefTargetBlank = true
 +++
 
-In the last few years I gave a bunch of presentations. This is a collection of those. At the time, I was not focussing on publishing them, so some of the content would be missing as I did not document everything. Feel free to contact me if anything piques your interest. 
 
-1) Rust presentation with focus on differentiating features of rust ie. owenership, borrowing and lifetimes. [Github Link][1]
+In the last few years I gave a bunch of presentations. This is a collection of those, in reverse chronological order.
+
+1) Practical introduction to deep learning. Learn a model to differentiate between cats and dogs. Based on Lec 1 and 2 of the fast-ai course. [Github Link ][0] (October 2017)
+
+1) Rust presentation with focus on differentiating features of rust ie. owenership, borrowing and lifetimes. [Github Link][1] (August 2017)
 
 2) Graph Databases : Neo4j. [Google slides link][2].
 
@@ -40,3 +43,5 @@ https://docs.google.com/presentation/d/1PBTH-umcJmwkMGuxNINT-8PTYbvAKogNyd-p157W
 [2]:https://docs.google.com/presentation/d/1NzoUtIi3ORyRcGSP3lICClJSpqcS3o2wdf5PFMVuRtg/present#slide=id.g253f086920_2_47
 
 [1]: https://prashantkhurana.github.io/rust-presentation
+
+[0]: https://prashantkhurana.github.io/deep-learning-presentation/#/
