@@ -1,6 +1,10 @@
 
 +++
-title = "Mail"
+title = ""
+updated = ""
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
 +++
 <script language="JavaScript">
 var username = "prashant";
