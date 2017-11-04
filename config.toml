@@ -40,7 +40,7 @@ pluralizelisttitles = false
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "prashant@prashantkhurana.com"
+    url = "/mail"
     name = "envelope-o"
     weight = 1
 
