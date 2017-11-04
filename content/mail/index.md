@@ -1,6 +1,6 @@
 
 +++
-title = ""
+title = "Mail"
 +++
 <script language="JavaScript">
 var username = "prashant";
