@@ -59,7 +59,7 @@ Motivation I had been trying to go over deep learning course on fast.ai and some
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.com/mail/</guid>
-      <description>var username = &#34;prashant&#34;; var hostname = &#34;prashantkhurana.com&#34;; var linktext = username + &#34;@&#34; + hostname ; document.write(&#34;Email : &#34; + &#34;&#34; + linktext + &#34;&#34;);  </description>
+      <description>var username = &#34;prashant&#34;; var hostname = &#34;prashantkhurana.com&#34;; var linktext = username + &#34;@&#34; + hostname ; document.write(&#34;Say Hi = &#34; + &#34;&#34; + linktext + &#34;&#34;);  </description>
     </item>
     
     <item>
