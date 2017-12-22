@@ -19,7 +19,7 @@ In the last few years I gave a bunch of presentations. This is a collection of t
 
 4) Java concurrency in practice : Overview of JcStress, a stress testing tool. [Google Slides Link][4] 
 
-5) Refactoring to patterns : Collection of a few not so known patterns from the famous book 'Refactoring to patterns'. [Google Slides Link][5]
+5) Refactoring to patterns : Collection of a few not so known patterns from the book 'Refactoring to patterns'. [Google Slides Link][5]
 
 6) JUnit5: I gave this talk when Junit5 was few months away, hopefully all things mentioned here made it in. [Google Slides Link][6]
 
